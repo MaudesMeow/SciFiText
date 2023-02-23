@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f7e3308f1b2a48b4cad3dced50f35a8e, type: 3}
-  m_Name: Starting Room
+  m_Name: OrbRoom
   m_EditorClassIdentifier: 
-  description: "The doro slams behind you, spooky!\t\t"
-  roomName: Starting Room
+  description: you're in the orb room
+  roomName: orb room
   exits:
-  - keyString: North
-    exitDescription: You see a dark doorway to the north
-    valueRoom: {fileID: 11400000, guid: f95b001fcf6b3a754a2eb517907f8d97, type: 2}
+  - keyString: south
+    exitDescription: go back to where you were
+    valueRoom: {fileID: 11400000, guid: 68071bf3d2eaf8a4da43871606a7c22f, type: 2}
